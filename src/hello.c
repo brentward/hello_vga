@@ -43,6 +43,8 @@ void main() {
     xreg(1, 0, 1);
     xreg(4, 1, 1);
     xreg(0, 2, 1);
+    xreg(0, 3, 1);
+    xreg(0, 4, 1);
     xreg(0, 6, 1);
     xreg(1, 7, 1);
     xreg(0xE000, 8, 1);

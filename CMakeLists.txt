@@ -7,6 +7,9 @@ add_subdirectory(rp6502-sdk)
 add_executable(hello)
 target_sources(hello PRIVATE
     src/hello.c
+    src/controller.h
+    src/controller.s
+    src/sprite.h
 )
 target_link_libraries(hello PRIVATE
     rp6502
